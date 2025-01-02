@@ -129,3 +129,4 @@
 2025-01-02 12:55:09,516 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ekgks\Desktop\dahan\dahan\src\test\resources
 2025-01-02 13:03:03,413 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-01-02 13:03:03,446 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-02 13:03:03,453 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ekgks\Desktop\dahan\dahan\src\test\resources
