@@ -1,0 +1,21 @@
+package com.shop.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.shop.entity.Item;
+public interface ItemRepository extends JpaRepository<Item, Long> {
+	  List<Item> findByItemNm(String itemNm,String itemDetail);
+	  // 상품명을 기준으로 상세 설명도 함께 검색 (AND 조건)
+	    List<Item> findByItemNmAndItemDetail(String itemNm, String itemDetail);
+
+	    // 상품명을 기준으로 상세 설명을 포함한 검색 (OR 조건)
+	    List<Item> findByItemNmOrItemDetail(String itemNm, String itemDetail);
+
+	    // 특정 가격 이하 상품 조회
+	    List<Item> findByPriceLessThan(Integer price);
+
+	    // 특정 가격 이하 상품을 가격 내림차순으로 조회
+	    List<Item> findByPriceLessThanOrderByPriceDesc(Integer price);
+	}
