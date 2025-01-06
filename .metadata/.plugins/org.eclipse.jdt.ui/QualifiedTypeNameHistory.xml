@@ -1,7 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jakarta.persistence.EnumType"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
-    <fullyQualifiedTypeName name="com.shop.entity.Item"/>
-    <fullyQualifiedTypeName name="com.shop.constant.ItemSellStatus"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>

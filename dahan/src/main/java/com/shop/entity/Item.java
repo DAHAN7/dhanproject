@@ -26,7 +26,7 @@ public class Item {
 	@Column(nullable=false)
  private int stockNumber;//재고수량
 	@Lob
-	@Column(nullable=false)
+	@Cxolumn(nullable=false)
  private String itemDetail;//상품 상세설명
 	@Enumerated(EnumType.STRING)
  private ItemSellStatus itemSellStatus;//상품판매상태
