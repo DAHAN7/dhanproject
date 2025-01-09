@@ -106,6 +106,21 @@
             <artifactId>modelmapper</artifactId>
 			<version>2.3.9</version>
         </dependency>
+        <!-- SLF4J API 의존성 -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.32</version>
+    </dependency>
+
+    <!-- SLF4J Simple Logger 의존성 (로깅을 위한 간단한 설정) -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>1.7.32</version>
+        <scope>runtime</scope>
+    </dependency>
+        
     </dependencies>
 
 	<build>

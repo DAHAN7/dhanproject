@@ -10,20 +10,20 @@ import java.time.LocalDateTime;
 @Setter
 public class ItemDto {
 
-    private Long id;
+	private Long id;
 
-    private String itemNm;
+	private String itemNm;
 
-    private Integer price;
+	private Integer price;
 
-    private String itemDetail;
+	private String itemDetail;
 
-    private ItemSellStatus itemSellStatus;
+	private ItemSellStatus itemSellStatus;
 
-    private int stockNumber;
+	private int stockNumber;
 
-    private LocalDateTime regTime;
+	private LocalDateTime regTime;
 
-    private LocalDateTime updateTime;
+	private LocalDateTime updateTime;
 
 }

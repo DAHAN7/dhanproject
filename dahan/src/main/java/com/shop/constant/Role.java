@@ -1,5 +1,5 @@
 package com.shop.constant;
 
 public enum Role {
-    ORDER, CANCEL
+	ORDER, CANCEL
 }
