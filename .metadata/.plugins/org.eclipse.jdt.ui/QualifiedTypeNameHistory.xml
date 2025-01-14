@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.shop.entity.Item"/>
     <fullyQualifiedTypeName name="com.shop.entity.QItem"/>
+    <fullyQualifiedTypeName name="com.shop.constant.ItemSellStatus"/>
+    <fullyQualifiedTypeName name="com.shop.entity.Item"/>
+    <fullyQualifiedTypeName name="com.querydsl.core.types.dsl.NumberPath"/>
 </qualifiedTypeNameHistroy>
